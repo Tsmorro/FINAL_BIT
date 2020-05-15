@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import {createCustomElement} from '@angular/elements';
 import { DashboardComponent } from './components/components/dashboard/dashboard.component';
+import { DashboardModule } from './components/components/dashboard/dashboard.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DashboardComponent } from './components/components/dashboard/dashboard.
     AppComponent, DashboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DashboardModule
   ],
   entryComponents: [AppComponent,DashboardComponent]
 })
