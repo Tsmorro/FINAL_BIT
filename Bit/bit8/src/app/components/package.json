@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@bit/primefaces.primeng.chart": "file:components/chart",
+    "@bit/primefaces.primeng.internal.common.treenode": "^8.0.2",
+    "@bit/primefaces.primeng.treetable": "file:components/treetable"
+  }
+}

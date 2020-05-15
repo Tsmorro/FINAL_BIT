@@ -1,0 +1,130 @@
+<!-- <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeng@8.0.2/resources/themes/nova-light/theme.css'/>
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeng@8.0.2/resources/primeng.min.css'/> -->
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeng@8.0.2/resources/themes/nova-light/theme.css'/>
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeng@8.0.2/resources/primeng.min.css'/>
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeicons@1.0.0/primeicons.css'/>
+<link rel='stylesheet' type='text/css' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' />
+<!-- <mat-sidenav-container class="example-container" *ngIf="shouldRun">
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
+  (closed)="events.push('close!')"><ng-content *ngFor="let section of sections"><ul class="sidenav"><li *ngFor="let page of pages"></li></ul></ng-content></mat-sidenav>
+  <mat-sidenav-content> -->
+<div class="row">
+<div class="metric">
+  <p>{{stats.label}}</p>
+  <div class="hz">
+  <h1>{{stats.stat}}</h1>
+  <span *ngIf="stats.indicator" ><h3 class="increase">{{stats.change}}</h3></span>
+  <span *ngIf="!stats.indicator"><h3>{{stats.change}}</h3></span>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-16" role="img" viewBox="0 0 512 512"><path fill="#0559B3" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></svg>
+
+</div>
+
+<div class="metric">
+  <p>{{stats.label}}</p>
+  <div class="hz">
+  <h1>{{stats.stat}}</h1>
+  <span *ngIf="stats.indicator" ><h3 class="increase">{{stats.change}}</h3></span>
+  <span *ngIf="!stats.indicator"><h3>{{stats.change}}</h3></span>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-16" role="img" viewBox="0 0 512 512"><path fill="#0559B3" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></svg>
+
+</div>
+<div class="metric">
+  <p>{{stats.label}}</p>
+  <div class="hz">
+  <h1>{{stats.stat}}</h1>
+  <span *ngIf="stats.indicator" ><h3 class="increase">{{stats.change}}</h3></span>
+  <span *ngIf="!stats.indicator"><h3>{{stats.change}}</h3></span>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-16" role="img" viewBox="0 0 512 512"><path fill="#0559B3" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></svg>
+
+</div>
+
+<div class="metric">
+  <p>{{stats.label}}</p>
+  <div class="hz">
+  <h1>{{stats.stat}}</h1>
+  <span *ngIf="stats.indicator" ><h3 class="increase">{{stats.change}}</h3></span>
+  <span *ngIf="!stats.indicator"><h3>{{stats.change}}</h3></span>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-16" role="img" viewBox="0 0 512 512"><path fill="#0559B3" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></svg>
+</div>
+<div class="metric">
+  <p>{{stats.label}}</p>
+  <div class="hz">
+  <h1>{{stats.stat}}</h1>
+  <span *ngIf="stats.indicator" ><h3 class="increase">{{stats.change}}</h3></span>
+  <span *ngIf="!stats.indicator"><h3>{{stats.change}}</h3></span>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-16" role="img" viewBox="0 0 512 512"><path fill="#0559B3" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></svg>
+
+</div>
+</div>
+<div class="imgRow">
+<mat-card class="image">
+  <img height="300px" width="100%" src="{{imgOptions2.url}}"/>
+  <h2 class="imgHeader">{{imgOptions1.header}}</h2>
+  <p class="imgLocation">{{imgOptions1.location}}</p>
+</mat-card>
+<div class=ctrPics>
+<mat-card class="image2">
+  <img height="150px" width="100%" src="{{imgOptions1.url}}"/>
+  <h2 class="imgHeader">{{imgOptions2.header}}</h2>
+  <p class="imgLocation">{{imgOptions2.location}}</p>
+</mat-card>
+<mat-card class="image2">
+  <img height="150px" width="100%" src="{{imgOptions1.url}}"/>
+  <h2 class="imgHeader">{{imgOptions2.header}}</h2>
+  <p class="imgLocation">{{imgOptions2.location}}</p>
+</mat-card>
+</div>
+<mat-card class="image">
+  <img height='300px' width="100%" src="{{imgOptions2.url}}"/>
+  <h2 class="imgHeader">{{imgOptions1.header}}</h2>
+  <p class="imgLocation">{{imgOptions1.location}}</p>
+</mat-card>
+</div>
+<h3 class="first">Asset Locations</h3>
+<p-treeTable [value]="files">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Type</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
+        <tr [ttRow]="rowNode">
+            <td>
+                <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
+                {{rowData.name}}
+            </td>
+            <td>{{rowData.size}}</td>
+            <td>{{rowData.type}}</td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
+      <tr [ttRow]="rowNode">
+          <td>
+              <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
+              {{rowData.name}}
+          </td>
+          <td>{{rowData.size}}</td>
+          <td>{{rowData.type}}</td>
+      </tr>
+  </ng-template>
+</p-treeTable><br>
+<br>
+<div class='graph'>
+<h2>Revenue by Month</h2>
+<p-chart type="line" [data]="data1"></p-chart>
+</div>
+<br><br>
+<div class='graph'>
+<H2>Projects by Manager</H2>
+<p-chart type="bar" [data]="data2"></p-chart>
+</div> 
+ <!-- </mat-sidenav-content>
+  </mat-sidenav-container> -->
+  

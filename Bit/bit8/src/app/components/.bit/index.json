@@ -1,0 +1,98 @@
+[
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "chart"
+    },
+    "isSymlink": false,
+    "hash": "b576df676648f9ef12f114edddb56b63ccdfc00a"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "treetable"
+    },
+    "isSymlink": false,
+    "hash": "eaffb2b7a9a51aeb12014752cf772be5853e56a5"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/common/blockableui"
+    },
+    "isSymlink": false,
+    "hash": "3d1f0ad3e99ce713fd87c277df7444142e43ab91"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/common/filtermetadata"
+    },
+    "isSymlink": false,
+    "hash": "46d65833d3aaded7ba3e3da480ed3546416307a8"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/common/shared"
+    },
+    "isSymlink": false,
+    "hash": "acdc52ee62ac74d703b0ebbb2d3e30e03d7098ff"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/common/sortmeta"
+    },
+    "isSymlink": false,
+    "hash": "a5cc300c32cebe4ca14dc09d752f2933a176b790"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/common/treenode"
+    },
+    "isSymlink": false,
+    "hash": "a202e7dc046c8c3893366e25eeb426c89cd91fa3"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/dom"
+    },
+    "isSymlink": false,
+    "hash": "230f00d3d747fd7cb9b9511c2a89cadd3e002cca"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "paginator"
+    },
+    "isSymlink": false,
+    "hash": "60a6b13b65d6aa90bf2cd31eb0648961a9a01322"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "internal/common/selectitem"
+    },
+    "isSymlink": false,
+    "hash": "909ca87bf2846624dd396a57b5adef763ca84fcb"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "dropdown"
+    },
+    "isSymlink": false,
+    "hash": "da9cbb453773a9cb9cf5b0b47e0bcc484f0daed7"
+  },
+  {
+    "id": {
+      "scope": "primefaces.primeng",
+      "name": "utils"
+    },
+    "isSymlink": false,
+    "hash": "dd255b5a1aa80fd7c7982ecbf962fd1c7bfbe501"
+  }
+]
