@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Injector } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard.component';
 import { ChartModule} from '@bit/primefaces.primeng.chart';
 import {TreeTableModule} from '@bit/primefaces.primeng.treetable';
 import { MaterialModule } from './material.module';
@@ -11,7 +11,7 @@ import {createCustomElement} from '@angular/elements';
 
 @NgModule({
   declarations: [
-    AppComponent
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -20,14 +20,8 @@ import {createCustomElement} from '@angular/elements';
     MaterialModule,
     HttpClientModule
   ],
-  entryComponents: [AppComponent]
 })
-export class AppModule { 
-  constructor(private injector: Injector){}
-  NgDoBootstrap(){
-    const bitsEl = createCustomElement(AppComponent, {injector: this.injector});
-    customElements.define('App', bitsEl);
-  };
-
+export class DashboardModule { 
+ 
 }
 
