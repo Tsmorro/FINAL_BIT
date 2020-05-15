@@ -13,7 +13,7 @@ const concat = require('concat');
 
   await fs.ensureDir('elements');
   await fs.copyFile('./dist/index.html', 'elements/index.html')
-  await concat(files, 'elements/modal.js');
+  await concat(files, 'elements/element.js');
   await fs.copyFile('./dist/styles.css', 'elements/styles.css')
   
 })();
