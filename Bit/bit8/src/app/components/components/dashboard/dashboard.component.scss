@@ -1,0 +1,118 @@
+body * {
+    font-family: 'Roboto Regular', Arial, sans-serif !important;
+}
+h3.increase {
+    background: #9ecf43;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+h2, h3, h1, p {
+    font-family: Roboto, Arial, san-serif !important;
+}
+div.hz{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: -25px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.metric {
+    border-right: 1px solid #ccc;
+    padding-right: 20px !important;
+    height: 80px;
+}
+.metric p {
+    margin-top: 5px;
+}
+.chartjs-render-monitor {
+    -webkit-animation: chartjs-render-animation 0.01s;
+    animation: chartjs-render-animation 0.01s;
+}
+canvas.chartjs-render-monitor {
+    max-height: 400px !important;
+}
+p-chart {
+    max-height: 300px !important;
+}
+body .ui-treetable .ui-treetable-thead > tr > th {
+    padding: 0.571em 0.857em;
+    border: 1px solid #c8c8c8;
+    font-weight: 700;
+    color: #333333;
+    background-color: none;
+    text-align: left;
+}
+img {
+    border: 4px solid #e1e1e1;
+}
+
+p.imgLocation {
+    position: relative;
+    top: -100px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+h2.imgHeader {
+    position: relative;
+    top: -80px;
+    color: white;
+    left: 20px;
+    text-shadow: 1px 1px black;
+}
+.imgRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px -22px;
+}
+
+.ctrPics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+}
+
+mat-card.image2.mat-card {
+    height: 150px;
+}
+mat-card{
+    padding: 0px; 
+}
+h3.first {
+    margin-top: -70px;
+}
+
+.metric {
+    margin-left: 10px;
+}
+svg.svg-inline--fa.fa-info-circle.fa-w-16 {
+    position: relative;
+    top: -94px;
+    left: 116px;
+    width: 15px;
+    height: 15px;
+}
+
+.metric p {
+    position: relative;
+    left: -20px;
+}
+div.hz span {
+    padding-left: 16px !important;
+    height: fit-content;
+}
+
+div.hz h1 {
+    font-size: 30px;
+}
+.metric:last-child {
+    border-right: none !important;
+}
